@@ -41,16 +41,25 @@ if (idade >= 18 && idade <= 25) {
 // }
 
 
-valorEmprestimo = 1;
 
-while(valorEmprestimo != 0) {
+while(true) {
   valorEmprestimo = parseInt(prompt("Dgite o valor do empréstimo"));
+  if(valorEmprestimo === 0) {
+    break;
+  }
   numAnos = parseInt(prompt("Digite o número de anos"));
   let juros = valorEmprestimo * texaDeJuros * numAnos;
   let montante = valorEmprestimo + juros;
   console.log(montante);
 
 }
+
+
+
+
+
+
+
 
 
 

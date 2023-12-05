@@ -43,11 +43,23 @@ DESAFIO 03
 //   alert("Corredor 3 é o vencedor")
 // }
 
-let soma = 0;
-let numero;
+// let soma = 0;
+// let numero;
 
-while(soma < 100) {
-	numero = parseInt(prompt("Insira um número"));
-  soma += numero;
-  console.log(soma);
+// while(soma < 100) {
+// 	numero = parseInt(prompt("Insira um número"));
+//   soma += numero;
+//   console.log(soma);
+// }
+
+// for(let i = 1; i <= 20; i++){
+//   if(i % 2 === 1){
+//     continue;
+//   }
+//   console.log(i);
+
+// }
+
+for(let i = 1; i <= 50; i++){
+    console.log(` ${i} - R$ ${i * 1.99}`);
 }
